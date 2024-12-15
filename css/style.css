@@ -1,0 +1,131 @@
+@import url(./normalize.css);
+:root {
+  --main-font-size: 22px;
+}
+* {
+  transition: all .1s ease-in;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 1440px;
+  height: 900px;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: var(--main-font-size);
+  color: #ffffff;
+  border: 25px solid #22739c;
+  box-sizing: border-box;
+  background-color: #2B81AC;
+}
+
+.text_p {
+  font-size: 21px;
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 150px;
+  margin-bottom: 35px;
+  
+}
+
+.title {
+/* margin-right: 137px; */
+  /* margin: auto; */
+  /* width: 1170px; */
+  width: 1170px;
+    margin: 0 auto;
+  height: 592px;
+  top: 130px;
+  box-sizing: border-box; 
+  
+   
+    
+}
+
+.line_1,
+.line_2,
+.line_3,
+.line_4 {
+  height: 147px;
+  /* width: 1166px; */
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+
+  
+}
+.with {
+  text-align: center;
+  /* margin: 0 auto; */
+  padding: 26px;
+  display: inline-block;
+}
+.with:hover {
+  opacity: 0.8; /* Прозорість при наведенні */
+  transform: scale(1.01); /* Ефект збільшення при наведенні (опціонально) */
+}
+
+.small_square {
+  
+  width: 25%;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+.long_square1 {
+  width: 69%;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.long_square {
+ 
+  width: 50%;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+.full_square {
+  width: 100%;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.content {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+
+.lisbon { background: #5da1c3;  width: 33.33%; }
+.paris { background: #33CCCC;  width: 33.33%; }
+.belgrade { background: #996699;  width: 33.33%;}
+.venice { background: #C24747; }
+.tel-aviv { background: #E2674A; }
+.cairo { background: #FFCC66; }
+.new-york { background: #99CC99; }
+.new-delhi { background: #669999; }
+.san-francisco { background: #CC6699; }
+.tokyo { background: #339966; }
+.sydney { background: #666699; }
+
+
+.footer {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 35px;
+  padding-left: 150px;
+}
+
+ul {
+  list-style-type: none; 
+  
+}
+
+
+
